@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_textsize">20dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+
+
+    <!-- contact item 联系人的item-->
+    <dimen name="contact_message_text_size">16dp</dimen>
+    <dimen name="contact_name_text_size">20dp</dimen>
+
+
+    <!--chat message -->
+    <dimen name="chat_text_size">16sp</dimen>
+
+</resources>

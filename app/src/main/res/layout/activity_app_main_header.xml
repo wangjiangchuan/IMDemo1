@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="34dp"
+    android:background="@color/appmain_primary"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/app_main_messages"
+        android:layout_marginTop="2dp"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/appmain_message2" />
+
+    <ImageView
+        android:id="@+id/app_main_contacts"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/appmain_contact1" />
+
+    <ImageView
+        android:id="@+id/app_main_account"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/appmain_account1" />
+
+</LinearLayout>

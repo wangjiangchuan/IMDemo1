@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Welcome Theme. -->
+    <style name="Welcome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Login Theme. -->
+    <style name="Login" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- create user Theme-->
+    <style name="Create_User" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--main Activity layout-->
+    <style name="AppMain" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppMain.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/appmain_primary</item>
+    </style>
+    <style name="AppMain.Title.Text" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!--FragmentContact Fragment Layout-->
+    <style name="Contact_Fragment" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="fab_label_style">
+        <item name="android:background">@drawable/floating_button_label_style</item>
+        <item name="android:textColor">@color/fab_label_textcolor</item>
+    </style>
+
+    <style name="ChatStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ChatStyle.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/appmain_primary</item>
+    </style>
+    <style name="ChatStyle.Title.Text" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

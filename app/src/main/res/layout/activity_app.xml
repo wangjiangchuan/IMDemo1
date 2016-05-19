@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.imtest1.activity.AppActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            style="@style/AppMain.Title"
+            android:background="@color/appmain_primary"
+            android:elevation="1dp"
+            android:id="@+id/appmain_toolbar">
+
+            <com.example.root.imtest1.view.AvatarView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="12dp"
+                android:id="@+id/app_main_toolbar_image"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppMain.Title.Text"
+
+                android:text="@string/app_name"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/appmain_toolbar_text" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <include
+            layout="@layout/activity_app_main_header"
+            />
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/appmain_container"
+            android:padding="10dp">
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+
+
+
+    <!--下面Floating Button的样式定义，切勿修改这里的定义，因为Fab标签部提供提示，很麻烦-->
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_addButtonSize="mini"
+        android:layout_gravity="bottom|end"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_expandDirection="up"
+        fab:fab_addButtonColorNormal="@color/floating_button_add_button"
+        fab:fab_labelStyle="@style/fab_label_style"
+        fab:fab_labelsPosition="left">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_contact_add"
+            fab:fab_size="mini"
+            fab:fab_title="添加联系人"
+            fab:fab_colorNormal="@color/floating_button_item_button_1"
+            android:src="@drawable/floating_button_addcontact"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_logout"
+            fab:fab_size="mini"
+            fab:fab_title="登出"
+            fab:fab_colorNormal="@color/floating_button_item_button_2"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+</FrameLayout>
